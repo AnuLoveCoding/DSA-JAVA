@@ -42,9 +42,43 @@ public class DSA_ARRAY {
             arr[i] = input.nextInt();
         }
 
-        for (int i = arr.length - 1; i >= 0 ; i--) {
-            System.out.print(arr[i]+" ");
+
+
+//        Reverse the Array;
+//        int i = 0;
+//        int j = arr.length - 1;
+//
+//        while(i < j){
+//
+//            int temp = arr[i];
+//             arr[i] = arr[j];
+//             arr[j] = temp;
+//
+//             i++;
+//             j--;
+//        }
+//
+//        for (int k = 0; k < n; k++) {
+//            System.out.print(arr[k] + " ");
+//        }
+
+//        print All the subarray;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i; j < arr.length; j++) {
+                for (int k = i; k <= j; k++) {
+                    System.out.print(arr[k]+ " ");
+                }
+                System.out.println();
+            }
         }
+
+
+
+//        System.out.println(arr);
+
+//        for (int i = arr.length - 1; i >= 0 ; i--) {
+//            System.out.print(arr[i]+" ");
+//        }
 
 //        add(arr);
 //       max_arr(arr);
