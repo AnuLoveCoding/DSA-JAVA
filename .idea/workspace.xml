@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c783030b-93ec-40f2-bb1b-348942781feb" name="Changes" comment="">
+    <list default="true" id="c783030b-93ec-40f2-bb1b-348942781feb" name="Changes" comment="git commit -m &quot;DSA-JAVA&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DSA_ARRAY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSA_ARRAY.java" afterDir="false" />
     </list>
@@ -61,6 +61,21 @@
       <option name="presentableId" value="Default" />
       <updated>1677604863333</updated>
     </task>
+    <task id="LOCAL-00001" summary="DSA-JAVA">
+      <created>1677605885301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677605885301</updated>
+    </task>
+    <task id="LOCAL-00002" summary="git commit -m &quot;DSA-JAVA&quot;">
+      <created>1677605957364</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677605957364</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,5 +88,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DSA-JAVA" />
+    <MESSAGE value="git commit -m &quot;DSA-JAVA&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;DSA-JAVA&quot;" />
   </component>
 </project>
