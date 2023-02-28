@@ -14,6 +14,7 @@ public class DSA_ARRAY {
             arr[i] = input.nextInt();
         }
 
+
         for (int j : arr) {
             System.out.print(j+ " ");
         }
