@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c783030b-93ec-40f2-bb1b-348942781feb" name="Changes" comment="git commit -m &quot;DSA-JAVA&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Dsa_HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dsa_String.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dsa_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dsa_String.java" afterDir="false" />
     </list>
@@ -36,15 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/Desktop/Dsa_problem(scaler-topic)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/PC/Desktop/Dsa_problem(scaler-topic)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -53,7 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dsa_HashMap">
+  <component name="RunManager" selected="Application.Dsa_String">
     <configuration name="DSA_ARRAYLIST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DSA_ARRAYLIST" />
       <module name="DSA-JAVA" />
@@ -91,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dsa_HashMap" />
         <item itemvalue="Application.Dsa_String" />
+        <item itemvalue="Application.Dsa_HashMap" />
         <item itemvalue="Application.Dsa_ArrayList_1" />
         <item itemvalue="Application.factors" />
         <item itemvalue="Application.DSA_ARRAYLIST" />
@@ -157,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677746428301</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="git commit -m &quot;DSA-JAVA&quot;">
+      <created>1677749804306</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677749804306</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
