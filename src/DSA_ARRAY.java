@@ -125,7 +125,9 @@ public class DSA_ARRAY {
 //            }
 //        }
 
-        transpose(arr1);
+//        transpose(arr1);
+
+//        Rotate the 2D Matrix into 90 degree;
 
 //        System.out.println(arr);
 
