@@ -1,11 +1,43 @@
 import java.util.*;
 
 public class Dsa_String {
+
+    public static String remove_duplicates(String name, int B){
+
+        String bag = "";
+
+        int i = 0;
+
+
+        while(i < name.length()){
+
+            char ch = name.charAt(i);
+
+            int count = 0;
+
+            int j = i;
+
+            while(j < name.length() && ch == name.charAt(j)){
+                j++;
+                count++;
+            }
+
+            count = count % B;
+
+            for (int k = 0; k < count; k++) {
+                bag += ch;
+            }
+
+            i = j;
+        }
+
+        return bag;
+    }
     public static void main(String[] args){
         Scanner input =  new Scanner(System.in);
 
 //        System.out.print("Enter your sentence please : ");
-        String name = "This is my new car...";
+        String name = input.next();
 
 //        StringBuilder bag = new StringBuilder();
 
@@ -35,7 +67,10 @@ public class Dsa_String {
 //
 //        System.out.println(s2);
 
-        System.out.println(remove_consecuttive("aaaabccc" , 4));
+//        System.out.println(remove_consecuttive("aaaabccc" , 4));
+
+        int B = 3;
+        System.out.println(remove_duplicates(name, B));
         
         
 
