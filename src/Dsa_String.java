@@ -5,7 +5,7 @@ public class Dsa_String {
         Scanner input =  new Scanner(System.in);
 
 //        System.out.print("Enter your sentence please : ");
-        String name = "welcometothescaler";
+        String name = "This is my new car...";
 
 //        StringBuilder bag = new StringBuilder();
 
@@ -23,7 +23,21 @@ public class Dsa_String {
 
 //        System.out.printf("Remove vowels and find new sentence : " + ans);
 
-        reverse_vowels(name);
+//        reverse_vowels(name);
+
+//        String s = "Scaler Academy";
+//
+//        System.out. println(s.substring(0,6));
+//
+//        String s1 = "one";
+//
+//        String s2 = s1.concat("two");
+//
+//        System.out.println(s2);
+
+        System.out.println(remove_consecuttive("aaaabccc" , 4));
+        
+        
 
     }
 //    Reverse the vowels in String and exchange them;
@@ -59,6 +73,36 @@ public class Dsa_String {
             System.out.print(ch + " ");
         }
 
+    }
+
+
+//     remove consecutive char in a given String;
+    public static String remove_consecuttive(String A , int B){
+
+        String bag = "";
+
+        int len  = A.length();
+
+        int i = 0;
+        int j;
+
+        while(i < len){
+
+            j = i;
+
+            while(j < len && A.charAt(i) == A.charAt(j)){
+                j++;
+            }
+
+            if(j - i == B){
+                i = j;
+            }else{
+                bag += A.charAt(i);
+                i++;
+            }
+        }
+
+        return bag;
     }
 
 
