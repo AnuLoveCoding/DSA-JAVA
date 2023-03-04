@@ -81,6 +81,7 @@ public class Recursion_new {
 //        System.out.println(name.toCharArray());
 
         System.out.println(palindrome(name, 0 ,name.length() - 1));
+        
 
     }
 }
