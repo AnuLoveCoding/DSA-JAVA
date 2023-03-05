@@ -56,24 +56,22 @@ public class Recursion_new {
 
 //    write a revursive function to chech magic number or not?
     public static int magic_number(int A){
-        int sum = 0;
 
-        if(sum == 1){
+        if(A == 1){
             return 1;
         }
 
-        if(sum < 10){
+        if(A < 10){
             return 0;
         }
 
-
+        int sum = 0;
 
         while (A > 0){
             sum = A % 10;
             A /= 10;
         }
 
-//        System.out.println(sum);
         return magic_number(sum);
     }
 
