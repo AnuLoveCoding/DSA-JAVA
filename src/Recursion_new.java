@@ -54,6 +54,29 @@ public class Recursion_new {
         return palindrome(name , i + 1, j - 1);
     }
 
+//    write a revursive function to chech magic number or not?
+    public static int magic_number(int A){
+        int sum = 0;
+
+        if(sum == 1){
+            return 1;
+        }
+
+        if(sum < 10){
+            return 0;
+        }
+
+
+
+        while (A > 0){
+            sum = A % 10;
+            A /= 10;
+        }
+
+//        System.out.println(sum);
+        return magic_number(sum);
+    }
+
     public static void main(String[] args) {
 
 
@@ -75,12 +98,18 @@ public class Recursion_new {
 
 //        System.out.println(pow(n,b));
 
-        System.out.println("Enter your plaindrome name ");
-        String name = input.next();
+//        System.out.println("Enter your plaindrome name ");
+//        String name = input.next();
 
 //        System.out.println(name.toCharArray());
 
-        System.out.println(palindrome(name, 0 ,name.length() - 1));
+//        System.out.println(palindrome(name, 0 ,name.length() - 1));
+
+        int A = input.nextInt();
+
+        System.out.println(magic_number(A));
+
+
         
 
     }
