@@ -75,6 +75,25 @@ public class Recursion_new {
         return magic_number(sum);
     }
 
+//    Write a recursive program to print increasing-Order;
+    public static void print_Increasing(int A){
+        if(A == 0){
+            return;
+        }
+
+        print_Increasing(A - 1);
+        System.out.print(A + " ");
+    }
+
+//    Write a recursive program to print non-decreasing_order;
+    public static void print_decreasing(int A){
+        if(A == 0){
+            return;
+        }
+
+        System.out.print(A + " ");
+        print_decreasing(A - 1);
+    }
     public static void main(String[] args) {
 
 
@@ -105,7 +124,12 @@ public class Recursion_new {
 
         int A = input.nextInt();
 
-        System.out.println(magic_number(A));
+//        System.out.println(magic_number(A));
+
+//        print_Increasing(A);
+
+        print_decreasing(A);
+
 
 
         
