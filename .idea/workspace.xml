@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c783030b-93ec-40f2-bb1b-348942781feb" name="Changes" comment="git commit -m &quot;DSA-JAVA&quot;">
-      <change afterPath="$PROJECT_DIR$/src/List_node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkList_new.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkList_new.java" afterDir="false" />
-    </list>
+    <list default="true" id="c783030b-93ec-40f2-bb1b-348942781feb" name="Changes" comment="git commit -m &quot;DSA-JAVA&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -243,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678300304006</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="git commit -m &quot;DSA-JAVA&quot;">
+      <created>1678304979822</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678304979822</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
