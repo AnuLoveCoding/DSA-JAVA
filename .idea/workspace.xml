@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c783030b-93ec-40f2-bb1b-348942781feb" name="Changes" comment="git commit -m &quot;DSA-JAVA&quot;">
+      <change afterPath="$PROJECT_DIR$/src/LinkList_new.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkList_new.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_new.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_new.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Recursion_new">
+  <component name="RunManager" selected="Application.LinkList_new">
     <configuration name="Dsa_ArrayList_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dsa_ArrayList_1" />
       <module name="DSA-JAVA" />
@@ -76,6 +77,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkList_new" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkList_new" />
+      <module name="DSA-JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Recursion_new" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion_new" />
       <module name="DSA-JAVA" />
@@ -83,20 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="factors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factors" />
-      <module name="DSA-JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkList_new" />
         <item itemvalue="Application.Recursion_new" />
         <item itemvalue="Application.Dsa_String" />
         <item itemvalue="Application.Dsa_HashMap" />
         <item itemvalue="Application.Dsa_ArrayList_1" />
-        <item itemvalue="Application.factors" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678224507751</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="git commit -m &quot;DSA-JAVA&quot;">
+      <created>1678282690709</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678282690709</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
