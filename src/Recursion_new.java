@@ -94,6 +94,35 @@ public class Recursion_new {
         System.out.print(A + " ");
         print_decreasing(A - 1);
     }
+
+//    write a recursive program to print elements of arr 0th to last index;
+    public static void print_element(int [] arr, int i){
+
+        if(i == arr.length){
+            return;
+        }
+
+        System.out.print(arr[i] + " ");
+        print_element(arr, i + 1);
+    }
+
+//    write a function to print first index;
+    public static int print_index(int [] arr, int x, int i){
+        if(x == arr[i]){
+            return i;
+        }
+        return print_index(arr, x ,i + 1);
+    }
+
+//    write a recursive function to find factorial of number;
+    public static long factorial(int A){
+        if(A == 1){
+            return 1;
+        }
+
+        return factorial(A - 1) * A;
+    }
+
     public static void main(String[] args) {
 
 
@@ -122,16 +151,25 @@ public class Recursion_new {
 
 //        System.out.println(palindrome(name, 0 ,name.length() - 1));
 
+        System.out.printf("Enter Your number please : ");
         int A = input.nextInt();
 
 //        System.out.println(magic_number(A));
 
 //        print_Increasing(A);
 
-        print_decreasing(A);
+//        print_decreasing(A);
+
+//        int [] arr = {10,20,30,40,50,60};
+
+//        print_element(arr, 0);
+
+//        int x = arr[0];
+
+//        System.out.println(print_index(arr, x , 0));
 
 
-
+        System.out.println(factorial(A));
         
 
     }
