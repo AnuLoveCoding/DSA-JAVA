@@ -37,9 +37,9 @@ public class LinkList_new {
         List_node node4 = new List_node(105);
         List_node node5 = new List_node(20);
         List_node node6 = new List_node(220);
-//        List_node node7 = new List_node(7);
-//        List_node node8 = new List_node(84);
-//        List_node node9 = new List_node(56);
+        List_node node7 = new List_node(7);
+        List_node node8 = new List_node(84);
+        List_node node9 = new List_node(56);
 
 
         node1.next = node2;
@@ -68,7 +68,6 @@ public class LinkList_new {
 //        System.out.println();
 
 //      write a program for add the node;
-
 //        while(curr.next != null ){
 //            curr = curr.next;
 //        }
@@ -79,33 +78,57 @@ public class LinkList_new {
 //
         curr = node0;
 
-        int pos = 3;
-
         List_node node10 = new List_node(202);
 
         List_node previous = null;
 
         int k = 1;
 
-        while(k < pos && curr.next != null){  //  1 <= <- 3
-            curr = curr.next; // 0
-            previous = curr;  // null
+        while(k < 4 && curr.next != null){
+            previous = curr;
+            curr = curr.next;
             k++;
-//            System.out.println(k);
         }
 
         previous.next = node10;
-        previous.next.next = curr;
+        node10.next = curr;
 
         curr = node0;
 
+//        insert_node(node0);
+
+        int count = 0;
+
         while(curr != null){
-            System.out.print(curr.data + " ");
+//            System.out.print(curr.data + " ");
+            count++;
             curr = curr.next;
         }
         System.out.println();
 
+        System.out.println(count);
 
-//        15,5,202,20,88,105,20,220;
     }
+
+//    public static List_node insert_node(List_node node0){
+//       List_node curr = node0;
+//
+//        List_node node10 = new List_node(202);
+//
+//        List_node previous = null;
+//
+//        int k = 1;
+//
+//        while(k < 4 && curr.next != null){
+//            previous = curr;
+//            curr = curr.next;
+//            k++;
+//        }
+//
+//        previous.next = node10;
+//        node10.next = curr;
+//
+//        curr = node0;
+//        return curr;
+//    }
 }
