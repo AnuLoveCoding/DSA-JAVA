@@ -8,15 +8,15 @@ class List_node{
 
 }
 
-//class List_node1{
-//    int data;
-//    List_node1 next;
-//
-//    public List_node1(int data, List_node1 next) {
-//        this.data = data;
-//        this.next = next;
-//    }
-//}
+class List_node1{
+    int data;
+    List_node1 next;
+
+    public List_node1(int data, List_node1 next) {
+        this.data = data;
+        this.next = next;
+    }
+}
 
 public class LinkList_new {
 //    public static class node2{
