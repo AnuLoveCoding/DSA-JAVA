@@ -37,9 +37,10 @@ public class LinkList_new {
         List_node node4 = new List_node(105);
         List_node node5 = new List_node(20);
         List_node node6 = new List_node(220);
-        List_node node7 = new List_node(7);
-        List_node node8 = new List_node(84);
-        List_node node9 = new List_node(56);
+
+//        List_node node7 = new List_node(7);
+//        List_node node8 = new List_node(84);
+//        List_node node9 = new List_node(56);
 
 
         node1.next = node2;
@@ -76,39 +77,86 @@ public class LinkList_new {
 //        curr.next.next.next = node9;
 //
 //
-        curr = node0;
+//        curr = node0;
 
-        List_node node10 = new List_node(202);
-
-        List_node previous = null;
-
-        int k = 1;
-
-        while(k < 4 && curr.next != null){
-            previous = curr;
-            curr = curr.next;
-            k++;
-        }
-
-        previous.next = node10;
-        node10.next = curr;
-
-        curr = node0;
+//        List_node node10 = new List_node(202);
+//
+//        List_node previous = null;
+//
+//        int k = 1;
+//
+//        while(k < 4 && curr.next != null){
+//            previous = curr;
+//            curr = curr.next;
+//            k++;
+//        }
+//
+//        previous.next = node10;
+//        node10.next = curr;
+//
+//        curr = node0;
 
 //        insert_node(node0);
 
-        int count = 0;
+//        int count = 0;
+//
+//        while(curr != null){
+////            System.out.print(curr.data + " ");
+//            count++;
+//            curr = curr.next;
+//        }
+//        System.out.println();
+//
+//        System.out.println(count);
 
-        while(curr != null){
+//        write a program to delete a node in LinkList;
+//        curr = node0;
+
+//        List_node previous = null;
+//
+//        while(curr.next != null){
+//            previous = curr;
+//            curr = curr.next;
+//        }
+//
+//        previous.next = null;
+//
+//        curr = node0;
+//
+//        while(curr != null){
 //            System.out.print(curr.data + " ");
-            count++;
-            curr = curr.next;
-        }
-        System.out.println();
+////            count++;
+//            curr = curr.next;
+//        }
+//        System.out.println();
 
-        System.out.println(count);
+//         remove(node0);
+
 
     }
+
+//    write a program to delete a node in LinkList;
+
+//    public static void remove(List_node node0){
+//        List_node curr = node0;
+//
+//        List_node previous = null;
+//
+//        while(curr.next != null){
+//            previous = curr;
+//            curr = curr.next;
+//        }
+//
+//        previous.next = null;
+//
+//        curr = node0;
+//
+//        while(curr != null){
+//            System.out.print(curr.data + " ");
+//            curr = curr.next;
+//        }
+//        System.out.println();
+//    }
 
 //    public static List_node insert_node(List_node node0){
 //       List_node curr = node0;
