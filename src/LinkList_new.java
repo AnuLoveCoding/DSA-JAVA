@@ -33,7 +33,7 @@ public class LinkList_new {
         List_node node0 = new List_node(15);
         List_node node1 = new List_node(5);
         List_node node2 = new List_node(20);
-        List_node node3 = new List_node(88);
+        List_node node3 = new List_node(88); //***
         List_node node4 = new List_node(105);
         List_node node5 = new List_node(20);
         List_node node6 = new List_node(220);
@@ -43,11 +43,11 @@ public class LinkList_new {
 //        List_node node9 = new List_node(56);
 
 
+        node0.next = node1;
         node1.next = node2;
         node2.next = node3;
         node3.next = node4;
         node4.next = node5;
-        node0.next = node1;
         node5.next = node6;
 
         List_node curr = node0;
@@ -110,6 +110,33 @@ public class LinkList_new {
 //        System.out.println(count);
 
 //        write a program to delete a node in LinkList;
+
+        int pos = 3;
+
+        int i = 0;
+
+        List_node prevoius = null;
+
+        if(pos == 0){
+            curr = curr.next;
+        }
+
+        while(i <= pos && curr.next != null){
+            prevoius = curr;
+            curr = curr.next;
+            i++;
+        }
+
+        prevoius.next = curr.next;
+
+        curr = node0;
+
+        while(curr != null){
+            System.out.print(curr.data + " ");
+            curr = curr.next;
+        }
+        System.out.println();
+
 //        curr = node0;
 
 //        List_node previous = null;
