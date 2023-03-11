@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c783030b-93ec-40f2-bb1b-348942781feb" name="Changes" comment="git commit -m &quot;DSA-JAVA&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkList_new.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkList_new.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tower_of_hanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tower_of_hanoi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,14 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkList_new">
-    <configuration name="Dsa_ArrayList_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dsa_ArrayList_1" />
-      <module name="DSA-JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.tower_of_hanoi">
     <configuration name="Dsa_HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dsa_HashMap" />
       <module name="DSA-JAVA" />
@@ -90,13 +83,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tower_of_hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tower_of_hanoi" />
+      <module name="DSA-JAVA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tower_of_hanoi" />
         <item itemvalue="Application.LinkList_new" />
         <item itemvalue="Application.Recursion_new" />
         <item itemvalue="Application.Dsa_String" />
         <item itemvalue="Application.Dsa_HashMap" />
-        <item itemvalue="Application.Dsa_ArrayList_1" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678393570300</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="git commit -m &quot;DSA-JAVA&quot;">
+      <created>1678519847429</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1678519847429</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
