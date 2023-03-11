@@ -152,7 +152,7 @@ public class LinkList_new {
 //
 //        while(curr != null){
 //            System.out.print(curr.data + " ");
-////            count++;
+//            count++;
 //            curr = curr.next;
 //        }
 //        System.out.println();
